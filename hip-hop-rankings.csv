@@ -1,0 +1,312 @@
+ID,title,artist,year,gender,points,n,n1,n2,n3,n4,n5,spotify
+1,Juicy,The Notorious B.I.G.,1994,male,140,18,9,3,3,1,2,2b7FqlHc3JrzlYtGEkzq22
+2,Fight The Power,Public Enemy,1989,male,100,11,7,3,1,0,0,1yo16b3u0lptm6Cs7lx4AD
+3,Shook Ones (Part II),Mobb Deep,1995,male,94,13,4,5,1,1,2,33ZXjLCpiINn8eQIDYEPTD
+4,The Message,Grandmaster Flash & The Furious Five,1982,male,90,14,5,3,1,0,5,5DuTNKFEjJIySAyJH1yNDU
+5,Nuthin’ But A ‘G’ Thang,Dr Dre ft. Snoop Doggy Dogg,1992,male,84,14,2,4,2,4,2,4YtoipFgf4k0AfD17ZfD5X
+6,C.R.E.A.M.,Wu-Tang Clan,1993,male,62,10,3,1,1,4,1,119c93MHjrDLJTApCVGpvx
+7,93 ’Til Infinity,Souls of Mischief,1993,male,50,7,2,2,2,0,1,0PV1TFUMTBrDETzW6KQulB
+8,Passin’ Me By,The Pharcyde,1992,male,48,6,3,2,0,0,1,4G3dZN9o3o2X4VKwt4CLts
+9,N.Y. State Of Mind,Nas,1994,male,46,7,1,3,1,1,1,26Izh06V7txOWIEaPGd080
+10,Dear Mama,2Pac,1995,male,42,6,2,1,1,2,0,6tDxrq4FxEL2q15y37tXT9
+11,Runaway,Kanye West ft. Pusha T,2010,male,38,5,2,0,3,0,0,3DK6m7It6Pw857FcQftMds
+12,Paid In Full,Eric B & Rakim,1987,male,36,5,1,1,3,0,0,20s3FayrStM8GY0m4dRFsw
+13,Rapper’s Delight,Sugarhill Gang,1979,male,36,4,2,2,0,0,0,0FWhGmPVxLI6jOVF0wjALa
+14,They Reminisce Over You (T.R.O.Y.),Pete Rock & C.L. Smooth,1992,male,34,6,1,0,2,3,0,2Mb3zpobD0CvJGWv6NpsPy
+15,Fuck Tha Police,NWA,1988,male,32,5,1,1,2,0,1,5n8Aro6j1bEGIy7Tpo7FV7
+16,Electric Relaxation,A Tribe Called Quest,1993,male,32,5,0,3,1,0,1,0eEXcw3JLVXcRxYrVYMy68
+17,B.O.B.,OutKast,2000,male,32,4,2,1,0,1,0,3WibbMr6canxRJXhNtAvLU
+18,It Was A Good Day,Ice Cube,1992,male,30,5,2,0,1,0,2,2qOm7ukLyHUXWyR4ZWLwxA
+19,U.N.I.T.Y.,Queen Latifah,1993,female,30,5,1,1,1,1,1,4OxXBAN51tjVBEjSwuWWbv
+20,Doo Wop (That Thing),Lauryn Hill,1998,female,28,5,1,1,1,0,2,0uEp9E98JB5awlA084uaIg
+21,Lose Yourself,Eminem,2002,male,28,5,1,1,0,2,1,77Ft1RJngppZlq59B6uP0z
+22,International Players Anthem,UGK ft. OutKast,2007,male,28,4,1,1,1,1,0,1wSLX9nWj4EsvWwv4275HR
+23,Rosa Parks,OutKast,1998,male,26,4,0,2,1,1,0,0shK5iZQppbHPQYiy60xs9
+24,Jesus Walks,Kanye West,2004,male,24,6,0,0,2,2,2,5g1vtHqi9uV7xtYeCcFOBx
+25,Alright,Kendrick Lamar,2015,male,22,5,0,1,1,1,2,3iVcZ5G6tvkXZkZKlMpIUs
+26,Grindin’,Clipse,2002,male,22,4,1,0,1,1,1,3XrvEifl0hIzgBGUa5jBLS
+27,Rebel Without A Pause,Public Enemy,1988,male,22,4,1,0,1,1,1,1zONdCQrEJ4t3mlzKQADEN
+28,Ready Or Not,The Fugees,1996,mixed,22,4,0,0,3,1,0,3vZO25GdYuqFrR1kzZADnp
+29,Protect Ya Neck,Wu-Tang Clan,1992,male,22,3,2,0,0,0,1,1Sgj10byiGzPpI2IrXSFEn
+30,Life’s A Bitch,Nas ft. A.Z.,1994,male,20,3,0,2,0,1,0,2LhhnqrHPWvXYveZVHLKrd
+31,Triumph,Wu-Tang Clan,1997,male,18,3,1,0,0,2,0,3glqlA5qY3bbo8UaUDGPnw
+32,Changes,2Pac ft. Talent,1998,male,18,3,0,2,0,0,1,1ofhfV90EnYhEr7Un2fWiv
+33,Exhibit C,Jay Electronica,2009,male,18,2,1,1,0,0,0,23uJbBKyqs1dibvfECdjSH
+34,Hit ’Em Up,2Pac,1996,male,18,2,1,1,0,0,0,0Z2J91b2iTGLVTZC4fKgxf
+35,Planet Rock,Afrika Bambaataa & The Soulsonic Force,1982,male,18,2,1,1,0,0,0,3uy0jtkM8QYVTsBazkli1x
+36,Sucker MCs,Run DMC,1984,male,18,2,1,1,0,0,0,3hx5R8nOKu5zvhlfDNSIQC
+37,Walk This Way,Run DMC,1986,male,18,2,1,1,0,0,0,6qUEOWqOzu1rLPUPQ1ECpx
+38,Lost Ones,Lauryn Hill,1998,female,16,3,0,1,1,0,1,71XhXay6rKPZCVAaDtFlSR
+39,Work It,Missy Elliott,2002,female,16,3,0,0,2,1,0,3jagJCUbdqhDSPuxP8cAqF
+40,California Love,2Pac ft. Dr Dre,1996,male,16,2,1,0,1,0,0,3djNBlI7xOggg7pnsOLaNm
+41,Hip Hop,Dead Prez,2000,male,16,2,1,0,1,0,0,2HoDr1yVksl19omOhc1zWy
+42,I Am I Be,De La Soul,1993,male,16,2,1,0,1,0,0,N/A
+43,All Of The Lights,Kanye West ft. Rihanna & Kid Cudi,2010,mixed,16,2,0,2,0,0,0,22L7bfCiAkJo5xGSQgmiIO
+44,Blood On The Leaves,Kanye West,2013,male,14,2,1,0,0,1,0,42GcjriRK6srwHkfbkBqVl
+45,If I Ruled The World (Imagine That),Nas ft. Lauryn Hill,1996,mixed,14,2,1,0,0,1,0,5PQmSHzWnlgG4EBuIqjac2
+46,In Da Club,50 Cent,2003,male,14,2,1,0,0,1,0,4RY96Asd9IefaL3X4LOLZ8
+47,Party Up (Up In Here),DMX,1999,male,14,2,1,0,0,1,0,4AIHPdr6x3qNbxTR8ngWdQ
+48,The Rain (Supa Dupa Fly),Missy Elliott,1997,female,14,2,1,0,0,1,0,2WRzpLD8qDRrxMXc63E5WJ
+49,Codeine Crazy,Future,2014,male,14,2,0,1,1,0,0,0joQFwiBKmi6X1Iq5R1ubH
+50,Country Grammar,Nelly,2000,male,14,2,0,1,1,0,0,3wMUvT6eIw2L5cZFG1yH9j
+51,Hard Knock Life,JAY-Z,1998,male,14,2,0,1,1,0,0,2YIjojA9bKEcD4ScEiBg2q
+52,The What,The Notorious B.I.G. ft. Method Man,1994,male,14,2,0,1,1,0,0,4dTtYVQzlwBMpVyQ4h3wy2
+53,A Milli,Lil Wayne,2008,male,12,3,0,0,0,3,0,6ScJMrlpiLfZUGtWp4QIVt
+54,m.A.A.d. city,Kendrick Lamar,2012,male,12,2,1,0,0,0,1,2cDCojn6uIBM6A5xTAbl3H
+55,Mind Playing Tricks On Me,Geto Boys,1991,male,12,2,1,0,0,0,1,63BokRfXSQhEU6Qi2dSJpZ
+56,Black Steel In The Hour Of Chaos,Public Enemy,1988,male,12,2,0,1,0,1,0,4blNCZOOKSi1JCbZZmqEkJ
+57,Excursions,A Tribe Called Quest,1991,male,12,2,0,1,0,1,0,4tEaytMs86hIaOSsiGoLcP
+58,Stan,Eminem ft. Dido,2000,mixed,12,2,0,1,0,1,0,3UmaczJpikHgJFyBTAJVoz
+59,Still D.R.E.,Dr Dre ft. Snoop Dogg,1999,male,12,2,0,0,2,0,0,503OTo2dSqe7qk76rgsbep
+60,Elevators (Me & You),OutKast,1996,male,10,3,0,0,1,0,2,2oLwDI8tZUOh6SmTMRRfKs
+61,Get Ur Freak On,Missy Elliott,2001,female,10,3,0,0,1,0,2,6zsk6uF3MxfIeHPlubKBvR
+62,Ms Jackson,OutKast,2000,male,10,3,0,0,0,2,1,0I3q5fE6wg7LIfHGngUTnV
+63,One Mic,Nas,2001,male,10,2,0,1,0,0,1,6MMuI4k4Vs5ghtDH5i2hBg
+64,Bodak Yellow,Cardi B,2017,female,10,2,0,0,1,1,0,6KBYefIoo7KydImq1uUQlL
+65,Hypnotize,The Notorious B.I.G.,1997,male,10,2,0,0,1,1,0,6Tsu3OsuMz4KEGKbOYd6A0
+66,I Got 5 On It,Luniz,1995,male,10,2,0,0,1,1,0,4IYKjN1DrYzxKXt0umJqsG
+67,SpottieOttieDopaliscious,Outkast,1998,male,10,2,0,0,1,1,0,4GdB5M7GbwLZLouktYocFC
+68,Wu-Tang Clan Ain’t Nuthing Ta Fuck Wit,Wu-Tang Clan,1993,male,10,2,0,0,1,1,0,24vNw0Z0srb4zYXwrakw8E
+69,Aiiight Chill,Gang Starr,1994,male,10,1,1,0,0,0,0,3CkcRlGbDvlfdWI3QTViDx
+70,All Of The Lights,Kanye West ft. Rihanna & Kid Cudi,2010,male,10,1,1,0,0,0,0,22L7bfCiAkJo5xGSQgmiIO
+71,As The Rhyme Goes On,Eric B & Rakim,1987,male,10,1,1,0,0,0,0,0LxskSIEX09s9AVgH0kmhS
+72,Bling Bling,B.G.,1999,male,10,1,1,0,0,0,0,5q186AzhWeOEoFnApajHgR
+73,Brenda’s Got A Baby,2Pac,1991,male,10,1,1,0,0,0,0,791YTMSeD7SPGWHLIe61ew
+74,D’Evils,JAY-Z,1996,male,10,1,1,0,0,0,0,3u264XNfOLRYzObcd7MeLL
+75,Don’t Sweat The Technique,Eric B & Rakim,1992,male,10,1,1,0,0,0,0,48ZUwXrEOhaXLCxvmRYhZv
+76,Double Trouble At The Amphitheatre,Double Trouble,1983,male,10,1,1,0,0,0,0,1XAYYaGq4OTxsNwdmLhQSa
+77,Follow The Leader,Eric B & Rakim,1988,male,10,1,1,0,0,0,0,1p80AptLonBW0VilSi6xFj
+78,Guess Who’s Back,Rakim,1997,male,10,1,1,0,0,0,0,5czjjnbTatyFal33a9h1aN
+79,How To Rap About Africa,Black Vulcanite,2016,male,10,1,1,0,0,0,0,0hP0cuUCZxVMWvaEMfZLDr
+80,I Love The Dough,The Notorious B.I.G. ft. JAY-Z & Angela Winbush,1997,mixed,10,1,1,0,0,0,0,2Uvwc7D5rhphlzfBDnpYpU
+81,I Really Mean It,The Diplomats,2003,male,10,1,1,0,0,0,0,1IQPLs3r6lt4iNrQzAhnWs
+82,Kick Push,Lupe Fiasco,2006,male,10,1,1,0,0,0,0,6nz35DNIzbtj5ztpDEcW1j
+83,Lose Control,Missy Elliot ft. Ciara and Fatman Scoop,2005,mixed,10,1,1,0,0,0,0,0UaMYEvWZi0ZqiDOoHU3YI
+84,Memory Lane (Sittin’ in da Park),Nas,1994,male,10,1,1,0,0,0,0,2W58HMaCbjcUfZnZaeHtcC
+85,Moment Of Truth,Gang Starr,1998,male,10,1,1,0,0,0,0,1fotoYONO343JjbC8XvPSl
+86,Mural,Lupe Fiasco,2015,male,10,1,1,0,0,0,0,2zWZV7b1xu1qZPaMjavvpS
+87,Nature of the Threat,Ras Kass,1996,male,10,1,1,0,0,0,0,4i95RT5116MchMruev9qrK
+88,Never Change,JAY-Z,2001,male,10,1,1,0,0,0,0,7Ka2epdrW2dHzEOXZFqHyb
+89,Nutmeg,Ghostface Killah,2000,male,10,1,1,0,0,0,0,3NVAemUSBZ4aBuNViXOMWs
+90,One Love,Nas,1994,male,10,1,1,0,0,0,0,27u3Rh4IWYPdwVST20ALrt
+91,Players,Slum Village,1997,male,10,1,1,0,0,0,0,42il7TuY2vBP0QnWnjpxnI
+92,Sideways,E-40 feat B-Legit & Mac Shon,1995,male,10,1,1,0,0,0,0,4tY6O5Tbj5yTofc7A4XeDe
+93,Straight Outta Compton (Extended Mix),NWA,1989,male,10,1,1,0,0,0,0,6KIKRz9eSTXdNsGUnomdtW
+94,Terminator X To The Edge of Panic,Public Enemy,1998,male,10,1,1,0,0,0,0,0Pn7WVqX1YwK9SRwdGG0g8
+95,That’s Not Me,Skepta ft. Jme,2014,male,10,1,1,0,0,0,0,3tTDOodJcr6vKF2DASlwMZ
+96,They Want EFX,Das EFX,1992,male,10,1,1,0,0,0,0,3HCzj965m8Fz2E8wZkir6q
+97,Things Done Changed,The Notorious B.I.G.,1994,male,10,1,1,0,0,0,0,7hdOchAKFm6FwzyevcQ56y
+98,Top Billin’,Audio Two,1987,male,10,1,1,0,0,0,0,0ctyMxVlNs8oE7k0ZMcrKn
+99,Umoya,Skwatta Kamp,2003,male,10,1,1,0,0,0,0,0d6eixupqA4gdxOswrC7FQ
+100,We Got It For Cheap (Intro),Clipse,2006,male,10,1,1,0,0,0,0,3YKR7Wglf9JvWg5O7xdA5g
+101,White Lines,Grandmaster Melle Mel,1983,male,10,1,1,0,0,0,0,3odqT6FRAUAFCeOmNFmLrb
+102,Wot Do U Call It?,Wiley,2004,male,10,1,1,0,0,0,0,39ahTPIR6PPdmREkSkSorR
+103,Bring Da Ruckus,Wu-Tang Clan,1993,male,8,2,0,0,1,0,1,1v5cgIyffYtfEx0swttdoE
+104,Can’t Tell Me Nothing,Kanye West,2007,male,8,2,0,0,1,0,1,2MIBAmYwiuGoKUlpq9B9sZ
+105,Monster,Kanye West,2010,male,8,2,0,0,1,0,1,1ZHYJ2Wwgxes4m8Ba88PeK
+106,Real,Lupe Fiasco,2006,male,8,2,0,0,1,0,1,2FZ4Ac2OfaZWdv1BKibjVR
+107,Straight Outta Compton,NWA,1988,male,8,2,0,0,0,2,0,6KIKRz9eSTXdNsGUnomdtW
+108,22 Two’s,JAY-Z,1996,male,8,1,0,1,0,0,0,4AKGxJq7lp5CT08pA7PDxF
+109,4th Chamber,Gza ft. Ghostface Killah & Killah Priest & RZA,1995,male,8,1,0,1,0,0,0,4qfUlchVD7WM4JhA5xio6m
+110,Above The Clouds,Gang Starr ft. Inspectah Deck,1998,male,8,1,0,1,0,0,0,3ZBSXNYdTZVaBUQI3E2rF6
+111,Ain’t No N*gga,JAY-Z ft. Foxy Brown,1996,mixed,8,1,0,1,0,0,0,7yoSYvQZOoFSIiycmLaZex
+112,Ain’t No Thang,Outkast,1994,male,8,1,0,1,0,0,0,5TQEggGtsutzhOsYFfCAtE
+113,Backseat Freestyle,Kendrick Lamar,2012,male,8,1,0,1,0,0,0,3aGibUHhQyBsyumYHylw0K
+114,Black Cop,KRS-One,1993,male,8,1,0,1,0,0,0,0i5BepbSYym7AAIqyOhIxL
+115,Cannon,Lil Wayne,2006,male,8,1,0,1,0,0,0,N/A
+116,Cherchez La Ghost,Ghostface Killah ft. Madam Majestic & U-God,2000,mixed,8,1,0,1,0,0,0,5vKPSbwck6yojUAZIHTsFj
+117,Da Rockwilder,Method Man and Redman,1999,male,8,1,0,1,0,0,0,4anqYZt4APNlFwQixpbdZR
+118,Day 'N' Nite,Kid Cudi,2008,male,8,1,0,1,0,0,0,5FEXPoPnzueFJQCPRIrC3c
+119,Dirt Off Your Shoulder,JAY-Z,2003,male,8,1,0,1,0,0,0,3IrkbGQCoEPAkzJ0Tkv8nm
+120,Flava,Rich Gang,2014,male,8,1,0,1,0,0,0,3FpmTqNgOblZU9hoXreBKg
+121,Flava In Ya Ear (Remix),Craig Mack,1994,male,8,1,0,1,0,0,0,5PbFD3AIyunz5HxocduA9e
+122,Freaky Tales,Too $hort,1987,male,8,1,0,1,0,0,0,6s2N5hnHBJc9Satf7l2LrY
+123,Fuck You,The LOX,2000,male,8,1,0,1,0,0,0,5ohbRQ21LhDRHalhZFr3SS
+124,Ghetto Manifesto,The Coup,2001,male,8,1,0,1,0,0,0,4PocZArXsx1jHZ1wYXqDrE
+125,God’s Eye,Stogie T,2018,male,8,1,0,1,0,0,0,2x4Uv2JFRy6US8gEKC7b0Z
+126,Hip Hop,Mos Def,1999,male,8,1,0,1,0,0,0,4gQdwwPXSXnDkUh4jYqLoC
+127,How We Roll,Canibus,1998,male,8,1,0,1,0,0,0,6xiJ7G8vZfWgK9zuUUhlak
+128,Humble,Kendrick Lamar,2017,male,8,1,0,1,0,0,0,7KXjTSCq5nL1LoYtL7XAwS
+129,I Heard,Young Fathers,2013,male,8,1,0,1,0,0,0,3zgptmNsfqy1JscBOebsYJ
+130,I’ll Be Missing You,Puff Daddy ft. Faith Evans and 112,1997,mixed,8,1,0,1,0,0,0,5fii2C2yImI0KvaAZZDKrC
+131,Je Danse Le Mia,IAM,1994,male,8,1,0,1,0,0,0,6P8YkdLMTBA7z5nhKXgyi3
+132,Jonylah Forever,Lupe Fiasco,2013,male,8,1,0,1,0,0,0,5Mvw0vUS4KYVhSRyY6rQ6e
+133,Last Dayz,Onyx,1995,male,8,1,0,1,0,0,0,0usovqilR2yhLw9zWEaWzk
+134,Liberation,OutKast,1998,male,8,1,0,1,0,0,0,1H6S9OkozTNvcASUX4Bfgb
+135,Lucifer,JAY-Z,2003,male,8,1,0,1,0,0,0,05VHidqx1tV6V7MsCdAIby
+136,Marcy Me,JAY-Z,2017,male,8,1,0,1,0,0,0,5oynsOy80DnodTslgaj3cr
+137,Murder,UGK,1996,male,8,1,0,1,0,0,0,2KdsPGSUXbSZyq4oiDOqAe
+138,New World Water,Yasiin Bey (Mos Def),1999,male,8,1,0,1,0,0,0,4pVzrFPT1a4AI6H6Lt4MqO
+139,Scenario,A Tribe Called Quest,1991,male,8,1,0,1,0,0,0,0301nLjG0ti26rx5ZmfqtP
+140,Self Destruction,Stop The Violence Movement,1989,mixed,8,1,0,1,0,0,0,N/A
+141,Slippin',DMX,1998,male,8,1,0,1,0,0,0,740gNyGWKk98gy8nJLhHrv
+142,So Many Tears,2Pac,1995,male,8,1,0,1,0,0,0,spotify:track:0NzNKU2MJ9LCetT2uZMJH2
+143,Soweto,ProKid,2005,male,8,1,0,1,0,0,0,7zbGV2g2bsg52zfgekhU7G
+144,Super Bass,Nicki Minaj,2011,female,8,1,0,1,0,0,0,0iYebKFUSfF72fUu2OW6ZT
+145,Takkies,YoungstaCPT,2016,male,8,1,0,1,0,0,0,5518JmU2my7PyrVSzhs0y1
+146,The Black God,SpaceGhostPurrp,2012,male,8,1,0,1,0,0,0,0KFBxlXspZ6S3xmaBwamFx
+147,The Bridge Is Over,BDP,1987,male,8,1,0,1,0,0,0,5jkjpSsMOfsxgdGScPZVq2
+148,The World Is Yours,Nas,1994,male,8,1,0,1,0,0,0,7G3lxTsMfSx4yarMkfgnTC
+149,Ultralight Beam,Kanye West,2016,male,8,1,0,1,0,0,0,1eQBEelI2NCy7AUTerX0KS
+150,Warm It Up Kane,Big Daddy Kane,1989,male,8,1,0,1,0,0,0,6l1tmVO6bRmV7kSMsYaHZm
+151,We Can Get Gangsta,Project Pat,2001,male,8,1,0,1,0,0,0,2ExjSZcyf4h6xBGGTI4mOL
+152,Woo Hah!! Got You All In Check,Busta Rhymes,1996,male,8,1,0,1,0,0,0,09WxJCWFMWAxTHBLLelpDS
+153,Beat Bop,Rammellzee & K Rob,1983,male,6,2,0,0,0,1,1,7vvuBvw121GTG6JH9IMDaS
+154,I Get Around,2Pac,1993,male,6,2,0,0,0,1,1,74kHlIr01X459gqsSdNilW
+155,Party Life,JAY-Z,2007,male,6,2,0,0,0,1,1,1NGpVJjyQpsZRURcJTplfk
+156,Where I’m From,JAY-Z,1997,male,6,2,0,0,0,1,1,0R0zZnqPg7yOWb4PRmW8nC
+157,Act Too (Love of My Life),The Roots,1999,male,6,1,0,0,1,0,0,0WFS2dD69nOF7UQOlC0uyE
+158,America’s Most Blunted,Madvillain,2004,male,6,1,0,0,1,0,0,4BtGch9Jl7HIehy9dK9UzR
+159,Atrevido,Orishas,2000,male,6,1,0,0,1,0,0,N/A
+160,Bonita Applebum,A Tribe Called Quest,1990,male,6,1,0,0,1,0,0,5N5fp1lYSORdZbWanACki9
+161,Bout It Bout It,Master P,1996,male,6,1,0,0,1,0,0,362ychdHc0vMXhUE50PuoN
+162,Can’t Knock The Hustle,JAY-Z,1996,male,6,1,0,0,1,0,0,05Iawel3maRW3mSHYmXxMZ
+163,Cartoons & Cereal,Kendrick Lamar ft. Gunplay,2012,male,6,1,0,0,1,0,0,31Yebmn7gDvxc0yjRV8M5t
+164,Children’s Story,Slick Rick,1999,male,6,1,0,0,1,0,0,15HgR9Ht4obJOcMG4wregp
+165,Da Art Of Storytellin’,OutKast,1999,male,6,1,0,0,1,0,0,1KQymTxNJfWk6vCD5ywKW2
+166,Dr Aden,BOB,2011,male,6,1,0,0,1,0,0,49OUxGo0yTjKf7gx7qV84P
+167,Get Money,Junior M.A.F.I.A. ft. The Notorious B.I.G.,1995,male,6,1,0,0,1,0,0,53oWwSxPuyH2cjYKXH8fgO
+168,Get The Bozack,EPMD,1989,male,6,1,0,0,1,0,0,70Nz4Fjf3Ia2CBO3CdcSJI
+169,God Lives Through,A Tribe Called Quest,1993,male,6,1,0,0,1,0,0,3l30bDO9Kn2XJ9H2azq5PY
+170,Hahahaha jk?,Das Racist,2010,male,6,1,0,0,1,0,0,0QNfTRA4IlRfGXO1i4cyfP
+171,Hard In Da Paint,Waka Flocka Flame,2009,male,6,1,0,0,1,0,0,3XQY8kDjI8LARMIC9xkxQk
+172,I Gave You Power,Nas,1996,male,6,1,0,0,1,0,0,4dSLfdnCy43DPJiqpoZoKe
+173,Just A Moment,Nas ft. Quan,2005,male,6,1,0,0,1,0,0,69LI5JYpdxNck1NJc8rqAu
+174,Know The Ledge,Eric B & Rakim,1992,male,6,1,0,0,1,0,0,0InwTyum9iasoG9ajmJWg7
+175,Learned from Texas,BIG K.R.I.T,2019,male,6,1,0,0,1,0,0,6E1xeGoNLB0XWt5NnHVXvM
+176,Livin’ It Up,Ja Rule ft. Case,2001,male,6,1,0,0,1,0,0,52gqeRlrBE7hqMlRxEsi6y
+177,Love Is…,Common,2005,male,6,1,0,0,1,0,0,1NrUc0f7QZBYqgjj6ExNMG
+178,Lyrics Of Fury,Eric B & Rakim,1988,male,6,1,0,0,1,0,0,6jt8xuXd424y78MrNMNpvS
+179,Mask Off,Future,2017,male,6,1,0,0,1,0,0,0VgkVdmE4gld66l8iyGjgx
+180,Mass Appeal,Gang Starr,1994,male,6,1,0,0,1,0,0,3lGBvPUgO7MJltUnBlOpe9
+181,Mic Check,Aceyalone,1995,male,6,1,0,0,1,0,0,N/A
+182,Mo(u)rning,Akua Naru,2012,female,6,1,0,0,1,0,0,08Q4tRu6tlIr7faweTQojP
+183,No Church in the Wild,JAY-Z & Kanye West,2011,male,6,1,0,0,1,0,0,3Osd3Yf8K73aj4ySn6LrvK
+184,Old Town Road (Remix),Lil Nas X ft. Billy Ray Cyrus,2019,male,6,1,0,0,1,0,0,0F7FA14euOIX8KcbEturGH
+185,OVERSEAS,Bohan Phoenix,2018,male,6,1,0,0,1,0,0,0YnBTNxBcCpT9lw0Si2ICs
+186,Paper Planes,M.I.A.,2008,female,6,1,0,0,1,0,0,1kusepF3AacIEtUTYrw4GV
+187,Peter Piper,Run DMC,1986,male,6,1,0,0,1,0,0,5gsY63Dq5ht0LEvydhj9lA
+188,PRIDE,Kendrick Lamar,2017,male,6,1,0,0,1,0,0,6IZvVAP7VPPnsGX6bvgkqg
+189,Push It,Salt-N-Pepa,1986,female,6,1,0,0,1,0,0,6sT9MWlJManry3EQwf4V80
+190,Put It On,Big L,1995,male,6,1,0,0,1,0,0,6JI5wNWYdBw68GZjOMmgK5
+191,Queen Bitch,Lil’ Kim,1996,female,6,1,0,0,1,0,0,1LFqcpp3k7r9nHBH7Lsos4
+192,Self Control,Frank Ocean,2016,male,6,1,0,0,1,0,0,5GUYJTQap5F3RDQiCOJhrS
+193,Still Tippin’,Mike Jones,2004,male,6,1,0,0,1,0,0,59rtiYOPgMEDf3yPEfU2la
+194,Sub City,Stogie T,2016,male,6,1,0,0,1,0,0,2ig1HHcWAI4foVHcFScUSC
+195,Swimming Pools (Drank),Kendrick Lamar,2012,male,6,1,0,0,1,0,0,6REbwUNlppTfcnV4d4ZoZi
+196,The Blacker The Berry,Kendrick Lamar,2015,male,6,1,0,0,1,0,0,5Mtt6tZSZA9cXTHGSGpyh0
+197,The Story Of OJ,JAY-Z,2017,male,6,1,0,0,1,0,0,6JpN5w95em8SODPiM7W2PH
+198,Trap Beldi,Issam,2018,male,6,1,0,0,1,0,0,5JIGmdJjGKukNFJzPnWRUQ
+199,Verbal Intercourse,Raekwon ft. Ghostface Killah and Nas,1995,male,6,1,0,0,1,0,0,1kHPOtD1fo3kWOgcs0oisd
+200,Vicious Rap,Tanya ‘Sweet Tee’ Winley,1980,female,6,1,0,0,1,0,0,7qrwl5QZ5ZKxGLsBw1WPAT
+201,What About Me,Lil Boosie,2007,male,6,1,0,0,1,0,0,0OlnSESRYugVSEEJhWnP6M
+202,Worst Behavior,Drake,2013,male,6,1,0,0,1,0,0,48RN2EOOyG2Gs5Pyla7ZJj
+203,You Got Me,The Roots ft. Erykah Badu,1999,mixed,6,1,0,0,1,0,0,4pdLZsxq0y5oJDb6Cxlokw
+204,Mona Lisa,Slick Rick,1988,male,4,2,0,0,0,0,2,5JV45IebgbfO3EylYV49rl
+205,Witness (1 Hope),Roots Manuva,2001,male,4,2,0,0,0,0,2,5KLcIahbdBJeZ8tHAyYMpN
+206,1 Train,ASAP Rocky,2013,male,4,1,0,0,0,1,0,1eLU27PPFxBhbp1CBjPh9J
+207,Ambitionz Az A Ridah,2Pac,1996,male,4,1,0,0,0,1,0,20fBuVybkHgjF6vNhSMROD
+208,Award Tour,A Tribe Called Quest,1993,male,4,1,0,0,0,1,0,5YTM7OgQDt9EJAYcfHLniJ
+209,Baby Got Back,Sir Mix-A-Lot,1992,male,4,1,0,0,0,1,0,1SAkL1mYNJlaqnBQxVZrRl
+210,Bastard,Tyler The Creator,2009,male,4,1,0,0,0,1,0,7gza9mETipz1YWiN7tOedL
+211,Black Ice,Goodie Mob ft. OutKast,1998,male,4,1,0,0,0,1,0,0Uu8BPsWQGZk5AiRN3uBwn
+212,Boyz-n-the-Hood,Eazy-E,1988,male,4,1,0,0,0,1,0,5RGXoZt1qxmAErdhbyKJKq
+213,Can I Kick It,A Tribe Called Quest,1990,male,4,1,0,0,0,1,0,3Ti0GdlrotgwsAVBBugv0I
+214,Can I Live,JAY-Z,1996,male,4,1,0,0,0,1,0,20U1I32q6kX0Nmy4u8CvUg
+215,Feelin’ Myself,Mac Dre,2004,male,4,1,0,0,0,1,0,6SahMe6Q2BqUfnDQ2P9Xea
+216,Fight Da Faida,Frankie HI-NRG MC,1993,male,4,1,0,0,0,1,0,0nm1oTKwUhXyQ9by2NMMf2
+217,Get By,Talib Kweli,2002,male,4,1,0,0,0,1,0,1LM6EReMkAxuDXDF26ekl2
+218,Goosebumps,Travis Scott ft. Kendrick Lamar,2016,male,4,1,0,0,0,1,0,6gBFPUFcJLzWGx4lenP6h2
+219,Gossip,Lil Wayne,2007,male,4,1,0,0,0,1,0,3CPv7I34sxQq3HBlZZfOoe
+220,Grief,Earl Sweatshirt,2015,male,4,1,0,0,0,1,0,47A4a2ZxJaZz5nBME2HtXs
+221,Ha,Juvenile,2008,male,4,1,0,0,0,1,0,3b0dX6Q2lxp7OX5lFt0nba
+222,Have a Nice Day,Roxanne Shante,1989,female,4,1,0,0,0,1,0,4cXNDNvs5I1UL0BYpXC9W4
+223,Hold You Down,Alchemist ft. Nina Sky & Prodigy & Illa Ghee,2004,mixed,4,1,0,0,0,1,0,3EyNj8ps0rYIAF4xIpFCjc
+224,Hovi Baby,JAY-Z,2002,male,4,1,0,0,0,1,0,1OXEEStQRZJ6fhcz2gL0eJ
+225,I Like That,Janelle Monae,2018,female,4,1,0,0,0,1,0,2EznBGrlmx9wBeYgyDojsA
+226,I Luv U,Dizzee Rascal,2003,male,4,1,0,0,0,1,0,2L63rYvBtfdwoYTQaJC7gH
+227,I Used To Love Him,Lauryn Hill ft. Mary J Blige,1998,female,4,1,0,0,0,1,0,3IRdgbdqDcmJBIa6TY2mKX
+228,I Wonder,Kanye West,2007,male,4,1,0,0,0,1,0,4jQqM4NI79HEcWHUJb8Hvf
+229,I've Seen Footage,Death Grips,2012,male,4,1,0,0,0,1,0,7nCONy10IHp7XD3oYZ0lcx
+230,It’s All About The Benjamins (Remix),Puff Daddy ft. The Notorious B.I.G. & Lil’ Kim & The LOX,1997,mixed,4,1,0,0,0,1,0,3GMR3hyv8BccozoebVMve3
+231,Keep It On The Real,3X Krazy,1997,male,4,1,0,0,0,1,0,3nNoJOl9SckVH4abDYx2cy
+232,Kyoto,Yung Lean,2013,male,4,1,0,0,0,1,0,2djY65hifu2a4R2WqcXqKL
+233,La Di Da Di,Doug E Fresh & The Get Fresh Crew,1985,male,4,1,0,0,0,1,0,0WYu233HGAjMAu9UK5iHtS
+234,La La La,Lil Wayne,2007,male,4,1,0,0,0,1,0,3UO64VZNLPRhfVJ20curR4
+235,Love Of My Life (An Ode To Hip Hop),Erykah Badu ft. Common,2002,mixed,4,1,0,0,0,1,0,0ieS2bue78yadTdPiyzsaO
+236,Love Yourz,J Cole,2014,male,4,1,0,0,0,1,0,4gkl7QbQvBd3TM9PhlWFkI
+237,My Name Is,Eminem,1999,male,4,1,0,0,0,1,0,75IN3CtuZwTHTnZvYM4qnJ
+238,Oh Yeah,Foxy Brown,2001,female,4,1,0,0,0,1,0,2mSLhpYdxyeKUeiSwdtS6E
+239,Ojuelegba (Remix),Wizkid ft. Drake & Skepta,2015,male,4,1,0,0,0,1,0,6cTLhp8a39TClL2iqGpPVc
+240,One Day,UGK,1996,male,4,1,0,0,0,1,0,2GHp47AE8HTBF9xpG7FIoz
+241,Play That Beat Mr DJ,GLOBE & Whiz Kid,2001,male,4,1,0,0,0,1,0,7xYQZ8WJcmeCfcjf3RLSyA
+242,Puppet Master,Dr Dre ft. B-Real,1997,male,4,1,0,0,0,1,0,1W18uInCbi25TXyv3jXnoW
+243,Quiet Storm (Remix ft. Lil Kim),Mobb Deep,1999,male,4,1,0,0,0,1,0,6nwAubYnLGl7F7cDuOoVLp
+244,Quiet Storm (Remix),Mobb Deep ft. Lil’ Kim,1999,mixed,4,1,0,0,0,1,0,47w8ZDr5nBClBgMS92FBDQ
+245,Renegade,JAY-Z ft. Eminem,2001,male,4,1,0,0,0,1,0,5ASZFbCod633wLragmPYTj
+246,Respiration,Black Star ft. Common,1998,male,4,1,0,0,0,1,0,5mxVKAuunOKqcBfR5ivbRf
+247,Sim Dope,AKA,2014,male,4,1,0,0,0,1,0,365vtOmWoK3ZEnRWrdU3KN
+248,Sippin On Some Syrup,Three 6 Mafia ft. UGK,2000,male,4,1,0,0,0,1,0,2EduiM2UNwjCC7PsLxnOCH
+249,Sky’s The Limit,The Notorious B.I.G ft. 112,1997,male,4,1,0,0,0,1,0,0xdYzkbBBfTevSyOJqWUSX
+250,Slow It Down,Little Brother,2005,male,4,1,0,0,0,1,0,2CDnjjOWh18YG3LXsgvSLG
+251,So What’cha Want,Beastie Boys,1992,male,4,1,0,0,0,1,0,25pl7kV4OxafIc9wPAggYf
+252,Sock It 2 Me,Missy Elliott ft. Da Brat,1997,female,4,1,0,0,0,1,0,08bn759cPYICtUPoYx29P0
+253,Swangin’ and Bangin',E.S.G.,1993,male,4,1,0,0,0,1,0,5Ob4c2kpk95aQ05PhtiYj7
+254,Tha Crossroads,Bone Thugs-N-Harmony,1996,male,4,1,0,0,0,1,0,5KSJ9k1FYjFLnIRlJT2wF8
+255,Tried by 12,East Flatbush Project,1996,male,4,1,0,0,0,1,0,6NNaM2ltdwxcCc6MuR94zO
+256,Who Am I (What’s My Name)?,Snoop Dogg,1993,male,4,1,0,0,0,1,0,12CdB878c6n94tTlNfPcCv
+257,All Caps,Madvillain,2004,male,2,1,0,0,0,0,1,1Y2ExJJ9Dmb9po8K0ybSj3
+258,All Falls Down,Kanye West ft. Syleena Johnson,2004,mixed,2,1,0,0,0,0,1,5SkRLpaGtvYPhw02vZhQQ9
+259,B.I.B.L.E. (Basic Instructions Before Leaving Earth),Killah Priest,1995,male,2,1,0,0,0,0,1,5mOzvm41Pdh1WOtBKlCtZd
+260,Bible On The Dash,Gunplay,2012,male,2,1,0,0,0,0,1,0ymMvHAozg5LuIhqj8tVb3
+261,Big Pimpin',JAY-Z ft. UGK,1999,male,2,1,0,0,0,0,1,7m97yKVzPpXV9Z4ezEziOD
+262,Bitch Don’t Kill My Vibe,Kendrick Lamar,2012,male,2,1,0,0,0,0,1,712uvW1Vezq8WpQi38v2L9
+263,Clear Blue Skies,Juggaknots,1996,mixed,2,1,0,0,0,0,1,1zA1vA6xf8VyzHCSu8wAve
+264,Concrete Schoolyard,Jurassic 5,1998,male,2,1,0,0,0,0,1,0dtVSZDRv6PorrnX0cbFT7
+265,Da Art of Storytellin’ (Pt. 2),OutKast,1998,male,2,1,0,0,0,0,1,2vjgepbkQg5jH8ujrKEOin
+266,Da Mystery Of Chessboxin',Wu-Tan Clan,1993,male,2,1,0,0,0,0,1,4xOTVtbCPcfxMs2hSt9D6i
+267,Déjà Vu (Uptown Baby),Lord Tariq & Peter Gunz,1998,male,2,1,0,0,0,0,1,6dLujFTBvLRnr8zPMMVUJg
+268,Dipset Anthem,Diplomats ft. Juelz Santana & Cam’ron,2003,male,2,1,0,0,0,0,1,3rvM0obwHthpskrZKQxYLa
+269,DNA,Kendrick Lamar,2017,male,2,1,0,0,0,0,1,6HZILIRieu8S0iqY8kIKhj
+270,Fuck Tha World,Lil Wayne,1999,male,2,1,0,0,0,0,1,7e7YCETIA8xoF9IlWR64Xz
+271,Fuck Wit Dre Day (And Everybody’s Celebratin’),Dr Dre ft. Snoop Doggy Dogg,1993,male,2,1,0,0,0,0,1,04fX3oTJm5Zucg3Uf9aix0
+272,God’s Plan,Drake,2018,male,2,1,0,0,0,0,1,6DCZcSspjsKoFjzjrWoCdn
+273,Gold Digger,Kanye West ft. Jamie Foxx,2005,male,2,1,0,0,0,0,1,1PS1QMdUqOal0ai3Gt7sDQ
+274,Gucci Gucci,Kreayshawn,2011,female,2,1,0,0,0,0,1,1ea97AUSazu2QZw9BnHJqK
+275,Heart Of The City (Ain’t No Love),JAY-Z,2001,male,2,1,0,0,0,0,1,6gpZSI0xEMTzleBc5ykOVA
+276,HYFR,Drake ft. Lil Wayne,2011,male,2,1,0,0,0,0,1,0m1KYWlT6LhFRBDVq9UNx4
+277,I Used To Love H.E.R.,Common,1994,male,2,1,0,0,0,0,1,4TboAbE2pCUUB0fk6Q9rUU
+278,Insane In The Brain,Cypress Hill,1993,male,2,1,0,0,0,0,1,1oTHteQbmJw15rPxPVXUTv
+279,It Was A Good Day (B-Side Remix version),Ice Cube,1994,male,2,1,0,0,0,0,1,0MkJmjfBR4JZg0LcadprWL
+280,It’s Your World (Part 1 & 2),Common,2005,male,2,1,0,0,0,0,1,6lXGIJbyM4YBjK6CzIce25
+281,L'Americano,Akhenaton,1995,male,2,1,0,0,0,0,1,5Z38oEZdU5Znabb3gTqSew
+282,Look At Me!,XXXTENTACION,2015,male,2,1,0,0,0,0,1,7floNISpH8VF4z4459Qo18
+283,Looking At The Front Door,Main Source,1990,male,2,1,0,0,0,0,1,4usfXMswVpCtsSfJwl6LjH
+284,Lost In The World,Kanye West ft. Bon Iver,2010,male,2,1,0,0,0,0,1,2Im64pIz6m0EJKdUe6eZ8r
+285,Love Again (Akinyele Back),Run The Jewels ft. Gangsta Boo,2014,mixed,2,1,0,0,0,0,1,6ft8Ua2fHCpns3b3UoX691
+286,Love Sosa,Chief Keef,2012,male,2,1,0,0,0,0,1,4IowQDUOzUvNtp72HMDcKO
+287,March Madness,Future,2015,male,2,1,0,0,0,0,1,6hVGw7yVUd2bpdHMPCWrtN
+288,Mortal Man,Kendrick Lamar,2015,male,2,1,0,0,0,0,1,1WT11QmhZutciEv1NsHt1R
+289,Mtaktak,Shabjdeed & Al Nather,2019,male,2,1,0,0,0,0,1,1noMAtMiCtrTVFu5K3tXPg
+290,Ngqangqa,Kanyi,2017,female,2,1,0,0,0,0,1,N/A
+291,Nice For What,Drake,2018,male,2,1,0,0,0,0,1,3CA9pLiwRIGtUBiMjbZmRw
+292,No Diggity,Blackstreet ft. Dr Dre and Queen Pen,1996,mixed,2,1,0,0,0,0,1,6MdqqkQ8sSC0WB4i8PyRuQ
+293,O.P.P.,Naughty By Nature,1991,male,2,1,0,0,0,0,1,3voxsfqnGr9V74jkkzPhXC
+294,Pacifier,Young Thug,2015,male,2,1,0,0,0,0,1,3IyXIG8MURGOFR9Kp5EPvG
+295,Paid In Full (Seven Minutes Of Madness – The Coldcut Remix),Eric B & Rakim,1987,male,2,1,0,0,0,0,1,20s3FayrStM8GY0m4dRFsw
+296,Pass That Dutch,Missy Elliott,2003,female,2,1,0,0,0,0,1,1MaI6NwdrqnE3mRzOYTpoo
+297,Realer,Megan Thee Stallion,2019,female,2,1,0,0,0,0,1,3qVNNJ7f9RQeNR4iPIeS0c
+298,Regrets,JAY-Z,1996,male,2,1,0,0,0,0,1,2G5VfBhThZMgDXHBh6EHah
+299,Rock Wit U,Joe ft. G-Unit,2003,male,2,1,0,0,0,0,1,N/A
+300,Root Down,Beastie Boys,1994,male,2,1,0,0,0,0,1,1HkQduCToeLuMH4lg0DT2z
+301,Scotty,D4L,2005,male,2,1,0,0,0,0,1,6a0GRBATlIq4SRbBOPOA8V
+302,Shinjitsu No Dangan,King Giddra,1995,male,2,1,0,0,0,0,1,N/A
+303,Shoop,Salt-N-Pepa,1993,female,2,1,0,0,0,0,1,0Pu71wxadDlB8fJXfjIjeJ
+304,Still Fly,Big Tymers,2002,male,2,1,0,0,0,0,1,563vSy3HB5NHxel1VGQCW6
+305,The Breaks,Kurtis Blow,1980,male,2,1,0,0,0,0,1,5TvcggVu3s2P1fMAS8BupX
+306,Throw Some D’s,Rich Boy,2007,male,2,1,0,0,0,0,1,6SmPPtaMnfxgz5duA6t9Cu
+307,Time’s Up,O.C.,1994,male,2,1,0,0,0,0,1,3kCeMR9l6jNQCt8jWHCy2B
+308,Turn On The Lights,Future,2012,male,2,1,0,0,0,0,1,4U8hMes3PqpsLJBeMXD71p
+309,Warning,The Notorious B.I.G.,1994,male,2,1,0,0,0,0,1,33rsCCLHklTQav9klbpnAi
+310,Who Dat,J.T. Money ft. Solé,1999,mixed,2,1,0,0,0,0,1,2rbb3lOMI71NIMbJCS1wQQ
+311,Wipe Me Down (Remix),Foxx & Lil Boosie & Webbie,2006,male,2,1,0,0,0,0,1,6D1CstH1YvzNN8cPd9ay9Q

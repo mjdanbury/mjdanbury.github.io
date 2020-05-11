@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Info 5100, Homework 9 - Matthew Danbury (mjd358)</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="skeleton.css">
+    <style media="screen">
+    body{
+    	background: #FFD7B4;
+    }
+
+    text.axis {
+      text-anchor: end;
+      font-variant: all-small-caps;
+    }
+    </style>
+  </head>
+  <body>
+    <h2>The Concept of 'Artist as Male Genius' is Alive and Well in 2019</h2>
+    <h5>Info 5100, Homework 9 - Matthew Danbury (mjd358)</h5>
+    <p> In 2019, <a href="http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time">BBC Music polled</a> over 100 critics, artists, tastemakers, producers, and photographers from 15 different countries to name their personal top five hip-hop tracks of all time. Most notably, there are embarissingly few songs by female hip-hop artists accounted for here. While BBC addresses this <a href="http://www.bbc.com/culture/story/20191007-why-are-there-so-few-women-in-best-of-hip-hop-polls">in a followup article</a> the data themselves demonstrate how, when asked to name songs they thought to be commemerative of the genre, the poll's responders overwhelmingly chose songs from male artists. This falls in line with a long tradition of reserving titles such as "greatest of all time", "influencer", or "genuis" as honorifiics to be bestowed on males. I encourage the viewer to interact with and enjoy the content presented here, while keeping in mind that these selections are far from representative of the genre, and that ranking system suffers from a large degree of bias.</p>
+    <div>
+        <span>X axis:</span>
+        <select id="x-select"> </select>
+        <span>Y axis:</span>
+        <select id="y-select"> </select>
+
+    </div>
+    <h5 id="label">"Bodak Yellow", Cardi B, (2017)</h5>
+    <svg id="multivar" width="600" height="600">
+    </svg>
+    <iframe id="webplayer" src="https://open.spotify.com/embed/track/6KBYefIoo7KydImq1uUQlL" width="450" height="450" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+
+    <script type="text/javascript">
+
+      const requestData = async function(){
+
+        const hipHopDat = await d3.csv("hip-hop-rankings.csv", d3.autoType);
+        console.log(hipHopDat);
+
+        let layer = d3.select("#multivar").append('g');
+        let chartWidth = d3.select("#multivar").attr("width");
+        let chartHeight = d3.select("#multivar").attr("height");
+        let padding = 80;
+
+        // our 3 variables are points, year, and gender
+        const pointsExtent = d3.extent(hipHopDat, d => d.points);
+        const yearExtent = d3.extent(hipHopDat, d => d.year);
+
+        const pointScaleX = d3.scaleLinear().domain(pointsExtent).range([padding,chartWidth-padding]);
+        const yearScaleX = d3.scaleLinear().domain(yearExtent).range([padding,chartWidth-padding]);
+        const genderScaleX = d3.scalePoint().domain(["male","female","mixed"]).range([padding,chartWidth-padding]);
+
+        const pointScaleY = d3.scaleLinear().domain(pointsExtent).range([chartHeight-padding,padding]);
+        const yearScaleY = d3.scaleLinear().domain(yearExtent).range([chartHeight-padding,padding]);
+        const genderScaleY = d3.scalePoint().domain(["male","female","mixed"]).range([chartHeight-padding,padding]);
+
+        const genderColorScale = d3.scaleOrdinal().domain(["male","female","mixed"]).range(["#3CF7D7","#FDE53A","#FA5929"]);
+
+        hipHopDat.forEach( d => {
+          d.x = d3.randomUniform(10,chartWidth-10)();
+          d.y = d3.randomUniform(10,chartHeight-10)();
+        });
+
+        layer.selectAll("circle").data(hipHopDat)
+             .join("circle")
+             .attr("id", d => d["ID"])
+             .attr("r",4)
+             .attr("cx", d => d.x)
+             .attr("cy", d => d.y)
+             .attr("stroke-width",1)
+             .attr("stroke","black")
+             .attr("fill", d => genderColorScale(d.gender));
+
+        layer.selectAll("circle").data(hipHopDat)
+             .on("mouseover", function(d, i){
+               //console.log(this);
+               d3.select("#label")
+                 .text('"'+d.title+'"'+', '+d.artist+', '+'('+d.year+')')
+              d3.select(this)
+                .attr("r",6);
+              })
+            .on("mouseout", function(d, i){
+              d3.select(this)
+                .attr("r",4);
+              d3.select("#label")
+                .text('Click on a song to listen to listen to it.');
+            })
+           .on("click", function(d, i){
+             let songId = d.spotify;
+             d3.selectAll("circle")
+               .attr("fill", s => (s.artist === d.artist) ? "#bbb": genderColorScale(s.gender));
+             d3.select(this)
+               .attr("fill", "#bbb");
+
+             d3.select("#webplayer")
+               .attr("src", "https://open.spotify.com/embed/track/"+songId);
+           })
+
+        var sim = d3.forceSimulation()
+                    .nodes(hipHopDat)
+                    .force("collision", d3.forceCollide()
+                                          .radius(4.5)
+                                          .iterations(2) )
+                    .force("xpos", d3.forceX()
+                                     .x( d => yearScaleX(d.year) )
+                                     .strength( 0.05 ) )
+                    .force("ypos", d3.forceY()
+                                     .y( d => pointScaleY(d.points) )
+                                     .strength( 0.05 ) )
+
+                   .on("tick", update);
+
+         function update(){
+           layer.selectAll("circle").attr("cx", d => d.x).attr("cy", d => d.y);
+         }
+
+         let xAxis = d3.select("#multivar")
+                       .append("g").attr("class","x-axis")
+                       .attr("transform","translate("+(0)+","+(chartHeight-padding/2.0)+")")
+
+         xAxis.call( d3.axisBottom(yearScaleX).tickFormat(d3.format("~f")) );
+
+         let yAxis = d3.select("#multivar")
+                       .append("g").attr("class","y-axis")
+                       .attr("transform","translate("+(padding/2.0)+","+(0)+")")
+         yAxis.call( d3.axisLeft(pointScaleY) );
+
+
+
+         const xScales = {
+           'year': yearScaleX,
+           'points': pointScaleX,
+         }
+
+         const yScales = {
+           'points': pointScaleY,
+           'year': yearScaleY,
+           'gender': genderScaleY
+         }
+
+         var xDropdown = d3.select("#x-select");
+         var yDropdown = d3.select("#y-select");
+
+         d3.keys(xScales).forEach(d => {
+           xDropdown.append("option").text(d).attr("value", d);
+         });
+
+         d3.keys(yScales).forEach(d => {
+           yDropdown.append("option").text(d).attr("value", d);
+         });
+
+         xDropdown.on("change", updateX);
+
+         function updateX() {
+
+           let attribute = d3.select(this).property("value");
+           console.log(attribute)
+           let scale = xScales[attribute];
+
+           // Axis labels
+           xAxis.html(null);
+           xAxis.call( d3.axisBottom(scale).tickFormat(d3.format("~f")));
+
+           //simulation
+           sim.force("xpos")
+              .x( d => scale(d[attribute]));
+           sim.alpha(1);
+           sim.restart();
+
+         }
+
+         yDropdown.on("change", updateY);
+
+         function updateY() {
+
+           let attribute = d3.select(this).property("value");
+           console.log(attribute)
+           let scale = yScales[attribute];
+
+           // Axis labels
+           yAxis.html(null);
+           yAxis.call( d3.axisLeft(scale));
+
+           //simulation
+           sim.force("ypos")
+              .y( d => scale(d[attribute]));
+           sim.alpha(1);
+           sim.restart();
+
+         }
+
+      }
+
+      requestData();
+
+
+    </script>
+
+  </body>
+</html>
