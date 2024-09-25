@@ -1,12 +1,398 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Page Redirection</title>
-    <script type="text/javascript">
-        window.location.href = "https://matthewdanbury.info/";
-    </script>
-</head>
-<body>
-    If you are not redirected automatically, follow <a href='https://matthewdanbury.info/'>this link</a>.
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Danbury</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="intro">
+        <h1>matthew danbury</h1>
+        <br />
+        <br />
+        <h2>data journalist</h2>
+        <br />
+        <br />
+        <h2>new york city</h2>
+      </div>
+    </div>
+
+    <div class="body">
+      <!-- .graphics-container>.caption>h3+br+p>Lorem^^a>img^^br -->
+      <p class="year">2024</p>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Police Killings</h3>
+          <br />
+          <p>
+            On August 9, 2014 Michael Brown Jr. was killed by police in
+            Ferguson, Missouri, sparking nationwide protests against police
+            brutality. In the 10 years since Brown's death, the number of people
+            killed by police each year has not decreased and officers are no
+            more likely to be prosecuted for on-duty killings.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/data-graphics/data-police-killings-changed-10-years-ferguson-rcna163847"
+          ><img src="assets/police_violence.webp" alt=""
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Pop Stars</h3>
+          <br />
+          <p>
+            With several underground pop artists breaking out into the
+            mainstream, I collected data on five contemporary pop stars'
+            discography, live shows, and listeners to show how the path to
+            commercial pop success can look different for different artists.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/pop-culture/pop-culture-news/chappell-roan-sabrina-carpenter-charli-xcx-tinashe-redefining-pop-star-rcna159854"
+          ><img src="assets/pop_stars_4.png" alt="pop stars"
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Housing Affordability</h3>
+          <br />
+          <p>
+            Across the country, the prospect of home ownership is slipping out
+            of reach for the ordinary buyer. Data from Redfin, Freddie Mac, and
+            the Census Beureau show that a median-priced home in the U.S. is no
+            longer affordable for a median-income household.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/data-graphics/housing-affordability-worst-and-costs-highest-rcna155285"
+          ><img src="assets/housing_affordability.webp" alt=""
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Extreme Heat</h3>
+          <br />
+          <p>
+            With extreme heat becoming an ever more common public health
+            concern, the National Weather Service has begun publishing daily
+            heat risk forcasts. I wrote a bash script to scrape each day's
+            forcast and automatically update a choropleth map to display the
+            latest data.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/health/health-news/extreme-heat-chronic-health-conditions-record-temperature-rcna162137"
+          ><img src="assets/extreme_heat_2.png" alt=""
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Record Air Travel</h3>
+          <br />
+          <p>
+            After plummeting during the coronavirus pandemic, air travel has
+            rebounded and hit new highs. After scraping passenger screening data
+            from the TSA website, I applied a 7-day rolling maximum as a way to
+            smooth out weekly fluctuations without distorting the dates or
+            values of record highs.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/business/travel/tsa-airport-screenings-hit-time-high-rcna159009"
+          ><img src="assets/air_travel.png" alt=""
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Nuseirat Raid</h3>
+          <br />
+          <p>
+            On June 8, the IDF conducted a raid on the Nuseirat refugee camp,
+            rescuing 4 hostages and killing at least 274 Palestinians. I created
+            this locator map to show the locations of footage of the raid
+            geolocated by NBC's SNG team.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/news/world/israel-hostage-rescue-what-we-know-rcna156937"
+          ><img src="assets/nuseirat_raid.png" alt=""
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Wind vs. Coal</h3>
+          <br />
+          <p>
+            The ammount of electricity generated from coal in the U.S. has
+            steadily fallen since 2008. At the same time, the ammount generated
+            from wind has grown, overtaking coal in March and April of this
+            year.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/science/environment/wind-power-surpassed-coal-march-april-rcna161242"
+          ><img src="assets/wind_coal.jpg" alt=""
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Coming Out</h3>
+          <br />
+          <p>
+            A Gallup survey found that nearly 1 in 5 LGBTQ+ adults has not come
+            out to their friends or family. However, if and when respondents
+            came out changed depending on when the respondent was born. To
+            illustrate this cohort effect, I used a small multiples bar chart.
+          </p>
+        </div>
+        <a
+          href="https://www.nbcnews.com/nbc-out/out-news/lgbtq-adults-never-come-out-gallup-survey-rcna164086"
+          ><img src="assets/coming_out_2.png" alt=""
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Song Credits</h3>
+          <br />
+          <p>
+            Full and accurate information on who made the music you enjoy is
+            surprisingly hard to come by. Here I illustrate just how bad the
+            problem can be, and have an industry expert weigh in on why things
+            are this way.
+          </p>
+        </div>
+        <a href="https://mjdanbury.github.io/song-credits/"
+          ><img src="assets/records.jpg" alt=""
+        /></a>
+      </div>
+      <br />
+      <p class="year">2023</p>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Presidential Coverage</h3>
+          <br />
+          <p>
+            In 2023, Donald Trump was mentioned more than Joe Biden on CNN and
+            MSNBC, but on Fox News this trend was reversed. I presented this
+            finding in Columbia Journalism Review along with what it might mean
+            for journalists covering the coming election cycle.
+          </p>
+        </div>
+        <a
+          href="https://www.cjr.org/analysis/trump-has-recaptured-cable-tvs-attention.php"
+          ><img src="assets/tump.jpg" alt="trump biden"
+        /></a>
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Reporting Assistant</h3>
+          <br />
+          <p>
+            While city council and community board meetings are a valuable
+            source of information about local issues, most reporters cannot
+            attend every single one. To address this problem I developed an AI
+            assistant to ingest council meeting transcripts, suggest story
+            angles to pursue, and answer followup questions about what took
+            place.
+          </p>
+        </div>
+        <a href="https://huggingface.co/spaces/mjdanbury/CityCouncilReporter"
+          ><img src="assets/councilreporter.png" alt="chat bot"
+        /></a>
+      </div>
+      <br />
+      <p class="year">2022</p>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Carbon Footprints</h3>
+          <br />
+          <p>
+            Numbers can be hard to intuit. As a hobby project during college, I
+            developed an iOS app for visualizing the relative scales of carbon
+            emissions associated with several hundred human activities.
+          </p>
+        </div>
+        <a href="https://www.youtube.com/watch?v=psbfTV39fs4"
+          ><img src="assets/carbonApp.jpeg" alt="Two cats"
+        /></a>
+      </div>
+      <br />
+      <p class="year">2018</p>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Electron Microscopy</h3>
+          <br />
+          <p>
+            My background is in condensed matter physics. As a researcher, I
+            developed microscopy techniques for studying the atomic structure of
+            materials that exhibit unusual quantum effects.
+          </p>
+        </div>
+        <img src="assets/atoms.jpg" alt="atoms" />
+      </div>
+      <br />
+      <div class="graphics-container">
+        <div class="caption">
+          <h3>Modeling Magnetism</h3>
+          <br />
+          <p>
+            This was my final project for a computational physics course where I
+            experienced the joys and horrors of coding in C++.
+          </p>
+        </div>
+        <img src="assets/ising.png" alt="magnets" />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="outro">
+        <p><em>Thank you</em> for taking the time to read this.</p>
+        <br />
+        <p>
+          If you are looking to get in touch, please fill out
+          <a href="https://forms.gle/gq2cK4b1RNAeKS8i6">this form</a> and I will
+          get back to you as soon I can.
+        </p>
+      </div>
+    </div>
+  </body>
+
+  <style>
+    body {
+      font-size: 16px;
+    }
+
+    .header {
+      /* background: red; */
+      height: 30vh;
+    }
+
+    .footer {
+      height: 30vh;
+    }
+
+    .outro {
+      /* background: green; */
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      top: 30%;
+      line-height: normal;
+    }
+
+    .intro {
+      /* background: green; */
+      width: 200px;
+      margin: 0 auto;
+      text-align: justify;
+      text-align-last: justify;
+      text-justify: distribute;
+      position: relative;
+      top: 30%;
+    }
+
+    h1 {
+      font-family: "Noto Sans Mono", monospace;
+      font-size: 1.3em;
+      font-style: italic;
+    }
+
+    h2,
+    p {
+      font-family: "Noto Sans Mono", monospace;
+      font-size: 0.9em;
+      font-weight: 300;
+    }
+
+    .body {
+      /* background: yellow; */
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: normal;
+    }
+
+    .graphics-container {
+      /* background: red; */
+      display: flex;
+      padding-bottom: 50px;
+      align-items: center;
+    }
+
+    .graphics-container img {
+      width: 300px;
+    }
+
+    img:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+
+    h3 {
+      font-family: "Noto Sans Mono", monospace;
+      font-size: 0.9em;
+      font-weight: 400;
+    }
+
+    .caption {
+      text-align: left;
+      margin-right: 25px;
+    }
+
+    .year {
+      text-align: right;
+    }
+
+    em {
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @media (max-width: 650px) {
+      .body {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+
+      .graphics-container {
+        /* background: red; */
+        display: flex;
+        flex-direction: column;
+      }
+
+      .graphics-container img {
+        width: 100%;
+      }
+
+      .caption {
+        margin-bottom: 10px;
+        margin-right: 0px;
+      }
+    }
+  </style>
 </html>
