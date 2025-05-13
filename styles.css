@@ -1,5 +1,5 @@
 body {
-  background: #e7e5e4;
+  /* background: #e7e5e4; */
   font-size: 16px;
 }
 
@@ -15,7 +15,6 @@ body {
   margin: 0 auto;
   text-align: justify;
   text-align-last: justify;
-  text-justify: distribute;
   position: relative;
   top: 30%;
 }
