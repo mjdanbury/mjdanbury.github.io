@@ -13,8 +13,8 @@ body {
   /* background: orange; */
   width: 200px;
   margin: 0 auto;
-  text-align: justify;
-  text-align-last: justify;
+  text-align: center;
+  /* text-align-last: justify; */
   position: relative;
   top: 30%;
 }
